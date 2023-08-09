@@ -93,7 +93,7 @@ the full code example: make sure you have them ready.
 The notebooks currently support the following providers for LLMs:
 
 - [OpenAI](https://openai.com/). In this case you will be asked for a valid API Key.
-- [GCP Vertex AI](https://cloud.google.com/vertex-ai). In this case you need a JSON API for a Service Account whose permissions include the Vertex AI API.
+- [GCP Vertex AI](https://cloud.google.com/vertex-ai). In this case you need a file with a JSON API Key for a Service Account whose permissions include the Vertex AI API.
 - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/). In this case you will need several parameters: the base URL to your Azure OpenAI resource, the API version string, an API Key, and the deployment and model name for both the LLM and the embedding models.
 
 See the inserts below for more information on each provider.
@@ -133,7 +133,7 @@ See the inserts below for more information on each provider.
 
     ![GCP Vertex AI, Create JSON Key](images/services/vertexai-api-key-4.png)
 
-    That's it: the full path to the JSON key is the required secret for Vertex AI.
+    That's it: the full path to the JSON key file is the required secret for Vertex AI.
 
 ??? info "Azure OpenAI"
 
